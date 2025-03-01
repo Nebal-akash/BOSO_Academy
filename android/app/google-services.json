@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "438518640585",
+    "project_id": "my-ai-learning-app-2cb29",
+    "storage_bucket": "my-ai-learning-app-2cb29.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438518640585:android:59cc3965bf93d1787c4218",
+        "android_client_info": {
+          "package_name": "com.example.nebal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq2VbFY67FhzEx39m-I3rOYPF3Dx5OZuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
