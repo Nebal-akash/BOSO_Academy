@@ -1,0 +1,82 @@
+name: nebal  #  Ensure this matches your folder structure
+description: "An AI-powered adaptive learning platform built with Flutter & Firebase."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.1 <4.0.0"  # Ensure compatibility with Flutter's latest stable version
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #  Firebase & Google Services (Latest Versions)
+  firebase_core: ^3.11.0
+  firebase_auth: ^5.4.2
+  cloud_firestore: ^5.6.3
+  firebase_storage: ^12.4.2
+  firebase_messaging: ^15.2.2
+  google_sign_in: ^6.2.1
+
+  # UI & Utility Packages
+  smooth_page_indicator: ^1.1.0
+  cupertino_icons: ^1.0.8
+  percent_indicator: ^4.2.3
+  font_awesome_flutter: ^10.6.0
+  provider: ^6.1.0
+  flutter_native_splash: ^2.4.4
+  table_calendar: ^3.0.9
+  youtube_explode_dart: ^1.12.0
+  speech_to_text: ^6.1.1
+  http: ^0.13.6
+  flutter_svg: ^2.0.9  #  For vector graphics
+
+  #  Game Development (Flame Engine)
+  flame: ^1.8.1       # Game engine
+  flame_tiled: ^1.9.1 # Tiled maps support
+  flame_audio: ^2.0.3 # Sound effects
+  url_launcher: ^6.2.1 #url launcher
+  file_picker: ^9.0.2
+  path_provider: ^2.1.5
+  flutter_pdfview: ^1.0.1
+  syncfusion_flutter_pdfviewer: ^20.4.54
+  flutter_webview_plugin: ^0.4.0
+
+
+
+
+
+
+
+flutter:
+  uses-material-design: true
+
+  #  Game Assets
+  assets:
+    #  Game images
+    - lib/game/assets/images/player.png
+    - lib/game/assets/images/enemy.png
+    - lib/game/assets/images/background.png
+
+    # 🎖 Rank Icons (Fixed Paths)
+    - lib/assets/ranks/bronze.png
+    - lib/assets/ranks/silver.png
+    - lib/assets/ranks/gold.png
+    - lib/assets/ranks/platinum.png
+    - lib/assets/ranks/diamond.png
+    - lib/assets/ranks/emerald.png
+    - lib/assets/ranks/ruby.png
+    #BackGround Image
+    - assets/images/Boso.png
+
+    #  Placeholder for sound effects (Add actual files later)
+
+    #  Fonts
+    - lib/game/assets/fonts/game_font.ttf
+
+  fonts:
+    - family: GameFont
+      fonts:
+        - asset: lib/game/assets/fonts/game_font.ttf
+  generate: false
